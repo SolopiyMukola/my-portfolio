@@ -1,7 +1,851 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bd9b3953-a524-47b9-81d8-e2e45d5b1ab1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/abbrev-c4979ac4/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/abbrev-c4979ac4/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/abbrev-c4979ac4/abbrev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/abbrev-c4979ac4/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/amdefine-3732c564/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/amdefine-3732c564/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/amdefine-3732c564/amdefine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/amdefine-3732c564/intercept.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/amdefine-3732c564/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/ansi-cyan-2808c722/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/ansi-cyan-2808c722/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/ansi-cyan-2808c722/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/ansi-cyan-2808c722/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/ansi-gray-7f7d8357/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/ansi-gray-7f7d8357/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/ansi-gray-7f7d8357/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/ansi-gray-7f7d8357/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/ansi-red-d2d1c62c/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/ansi-red-d2d1c62c/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/ansi-red-d2d1c62c/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/ansi-red-d2d1c62c/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/ansi-regex-1e396572/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/ansi-regex-1e396572/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/ansi-regex-1e396572/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/ansi-regex-1e396572/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/ansi-styles-9d0ce1f3/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/ansi-styles-9d0ce1f3/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/ansi-styles-9d0ce1f3/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/ansi-styles-9d0ce1f3/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/ansi-wrap-df0a6656/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/ansi-wrap-df0a6656/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/ansi-wrap-df0a6656/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/ansi-wrap-df0a6656/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/aproba-75ad1095/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/aproba-75ad1095/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/aproba-75ad1095/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/aproba-75ad1095/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/archy-6368d5e8/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/archy-6368d5e8/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/archy-6368d5e8/examples/beep.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/archy-6368d5e8/examples/multi_line.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/archy-6368d5e8/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/archy-6368d5e8/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/archy-6368d5e8/readme.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/archy-6368d5e8/test/beep.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/archy-6368d5e8/test/multi_line.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/archy-6368d5e8/test/non_unicode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/arr-diff-8bc084a5/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/arr-diff-8bc084a5/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/arr-diff-8bc084a5/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/arr-diff-8bc084a5/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/arr-flatten-c5c95c22/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/arr-flatten-c5c95c22/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/arr-flatten-c5c95c22/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/arr-flatten-c5c95c22/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/arr-union-9b337245/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/arr-union-9b337245/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/arr-union-9b337245/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/arr-union-9b337245/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/array-each-c7e7aa40/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/array-each-c7e7aa40/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/array-each-c7e7aa40/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/array-each-c7e7aa40/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/array-slice-21f5dc5e/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/array-slice-21f5dc5e/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/array-slice-21f5dc5e/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/array-slice-21f5dc5e/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/array-unique-b4817aef/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/array-unique-b4817aef/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/array-unique-b4817aef/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/array-unique-b4817aef/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/assert-plus-a6e8d1d4/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/assert-plus-a6e8d1d4/CHANGES.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/assert-plus-a6e8d1d4/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/assert-plus-a6e8d1d4/assert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/assert-plus-a6e8d1d4/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/assign-symbols-7da23851/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/assign-symbols-7da23851/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/assign-symbols-7da23851/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/assign-symbols-7da23851/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/async-each-14427a4b/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/async-each-14427a4b/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/async-each-14427a4b/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/async-each-14427a4b/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/async-each-14427a4b/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/asynckit-403da3e0/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/asynckit-403da3e0/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/asynckit-403da3e0/bench.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/asynckit-403da3e0/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/asynckit-403da3e0/lib/abort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/asynckit-403da3e0/lib/async.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/asynckit-403da3e0/lib/defer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/asynckit-403da3e0/lib/iterate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/asynckit-403da3e0/lib/readable_asynckit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/asynckit-403da3e0/lib/readable_parallel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/asynckit-403da3e0/lib/readable_serial.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/asynckit-403da3e0/lib/readable_serial_ordered.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/asynckit-403da3e0/lib/state.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/asynckit-403da3e0/lib/streamify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/asynckit-403da3e0/lib/terminator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/asynckit-403da3e0/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/asynckit-403da3e0/parallel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/asynckit-403da3e0/serial.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/asynckit-403da3e0/serialOrdered.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/asynckit-403da3e0/stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/atob-17859108/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/atob-17859108/LICENSE.DOCS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/atob-17859108/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/atob-17859108/bin/atob.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/atob-17859108/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/atob-17859108/browser-atob.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/atob-17859108/node-atob.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/atob-17859108/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/atob-17859108/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/aws-sign2-794a8d6b/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/aws-sign2-794a8d6b/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/aws-sign2-794a8d6b/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/aws-sign2-794a8d6b/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/aws4-444130c7/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/aws4-444130c7/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/aws4-444130c7/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/aws4-444130c7/aws4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/aws4-444130c7/lru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/aws4-444130c7/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/balanced-match-15af662d/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/balanced-match-15af662d/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/balanced-match-15af662d/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/balanced-match-15af662d/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/balanced-match-15af662d/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/buffer-from-eafc5565/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/buffer-from-eafc5565/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/buffer-from-eafc5565/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/buffer-from-eafc5565/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/builtin-modules-43752587/builtin-modules.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/builtin-modules-43752587/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/builtin-modules-43752587/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/builtin-modules-43752587/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/builtin-modules-43752587/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/builtin-modules-43752587/static.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/camelcase-a5e305a0/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/camelcase-a5e305a0/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/camelcase-a5e305a0/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/camelcase-a5e305a0/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/camelcase-c42dbdc9/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/camelcase-c42dbdc9/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/camelcase-c42dbdc9/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/camelcase-c42dbdc9/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/caseless-def328ef/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/caseless-def328ef/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/caseless-def328ef/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/caseless-def328ef/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/caseless-def328ef/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/cliui-34ae9c33/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/cliui-34ae9c33/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/cliui-34ae9c33/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/cliui-34ae9c33/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/cliui-34ae9c33/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/co-29ad0e0a/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/co-29ad0e0a/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/co-29ad0e0a/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/co-29ad0e0a/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/co-29ad0e0a/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/code-point-at-28413e32/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/code-point-at-28413e32/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/code-point-at-28413e32/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/code-point-at-28413e32/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/color-convert-f799477a/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/color-convert-f799477a/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/color-convert-f799477a/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/color-convert-f799477a/conversions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/color-convert-f799477a/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/color-convert-f799477a/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/color-convert-f799477a/route.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/color-name-164f6455/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/color-name-164f6455/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/color-name-164f6455/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/color-name-164f6455/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/color-name-164f6455/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/color-name-164f6455/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/color-name-164f6455/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/color-support-30960dbf/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/color-support-30960dbf/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/color-support-30960dbf/bin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/color-support-30960dbf/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/color-support-30960dbf/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/color-support-30960dbf/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/duplexify-dde78552/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/duplexify-dde78552/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/duplexify-dde78552/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/duplexify-dde78552/example.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/duplexify-dde78552/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/duplexify-dde78552/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/duplexify-dde78552/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/end-of-stream-fb2d8054/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/end-of-stream-fb2d8054/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/end-of-stream-fb2d8054/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/end-of-stream-fb2d8054/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/findup-sync-2344c6ac/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/findup-sync-2344c6ac/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/findup-sync-2344c6ac/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/fstream-63cc4955/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/fstream-63cc4955/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/fstream-63cc4955/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/fstream-63cc4955/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/fstream-63cc4955/examples/filter-pipe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/fstream-63cc4955/examples/pipe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/fstream-63cc4955/examples/reader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/fstream-63cc4955/examples/symlink-write.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/fstream-63cc4955/fstream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/fstream-63cc4955/lib/abstract.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/fstream-63cc4955/lib/collect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/fstream-63cc4955/lib/dir-reader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/fstream-63cc4955/lib/dir-writer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/fstream-63cc4955/lib/file-reader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/fstream-63cc4955/lib/file-writer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/fstream-63cc4955/lib/get-type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/fstream-63cc4955/lib/link-reader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/fstream-63cc4955/lib/link-writer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/fstream-63cc4955/lib/proxy-reader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/fstream-63cc4955/lib/proxy-writer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/fstream-63cc4955/lib/reader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/fstream-63cc4955/lib/socket-reader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/fstream-63cc4955/lib/writer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/fstream-63cc4955/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/gauge-c0ef4f86/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/gauge-c0ef4f86/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/gauge-c0ef4f86/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/gauge-c0ef4f86/base-theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/gauge-c0ef4f86/error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/gauge-c0ef4f86/has-color.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/gauge-c0ef4f86/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/gauge-c0ef4f86/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/gauge-c0ef4f86/plumbing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/gauge-c0ef4f86/process.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/gauge-c0ef4f86/progress-bar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/gauge-c0ef4f86/render-template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/gauge-c0ef4f86/set-immediate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/gauge-c0ef4f86/set-interval.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/gauge-c0ef4f86/spin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/gauge-c0ef4f86/template-item.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/gauge-c0ef4f86/theme-set.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/gauge-c0ef4f86/themes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/gauge-c0ef4f86/wide-truncate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/gaze-6538fd7d/LICENSE-MIT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/gaze-6538fd7d/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/gaze-6538fd7d/lib/gaze.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/gaze-6538fd7d/lib/helper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/gaze-6538fd7d/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/glob-49224d79/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/glob-49224d79/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/glob-49224d79/changelog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/glob-49224d79/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/glob-49224d79/glob.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/glob-49224d79/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/glob-49224d79/sync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/global-modules-871ee9a3/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/global-modules-871ee9a3/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/global-modules-871ee9a3/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/global-modules-871ee9a3/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/global-prefix-f835fcc0/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/global-prefix-f835fcc0/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/global-prefix-f835fcc0/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/global-prefix-f835fcc0/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/globule-bb63194e/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/globule-bb63194e/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/globule-bb63194e/lib/globule.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/globule-bb63194e/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/http-signature-65048041/.dir-locals.el" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/http-signature-65048041/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/http-signature-65048041/CHANGES.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/http-signature-65048041/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/http-signature-65048041/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/http-signature-65048041/http_signing.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/http-signature-65048041/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/http-signature-65048041/lib/parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/http-signature-65048041/lib/signer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/http-signature-65048041/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/http-signature-65048041/lib/verify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/http-signature-65048041/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/inflight-997bbacf/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/inflight-997bbacf/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/inflight-997bbacf/inflight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/inflight-997bbacf/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/is-number-c55f14cf/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/is-number-c55f14cf/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/is-number-c55f14cf/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/is-number-c55f14cf/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/is-number-c8de535c/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/is-number-c8de535c/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/is-number-c8de535c/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/is-number-c8de535c/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/jsprim-a761b955/CHANGES.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/jsprim-a761b955/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/jsprim-a761b955/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/jsprim-a761b955/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/jsprim-a761b955/lib/jsprim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/jsprim-a761b955/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/kind-of-2d2f2c4c/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/kind-of-2d2f2c4c/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/kind-of-2d2f2c4c/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/kind-of-2d2f2c4c/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/liftoff-c6579625/CHANGELOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/liftoff-c6579625/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/liftoff-c6579625/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/liftoff-c6579625/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/liftoff-c6579625/lib/build_config_name.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/liftoff-c6579625/lib/file_search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/liftoff-c6579625/lib/find_config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/liftoff-c6579625/lib/find_cwd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/liftoff-c6579625/lib/get_node_flags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/liftoff-c6579625/lib/parse_options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/liftoff-c6579625/lib/register_loader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/liftoff-c6579625/lib/silent_require.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/liftoff-c6579625/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/lru-cache-d327c76a/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/lru-cache-d327c76a/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/lru-cache-d327c76a/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/lru-cache-d327c76a/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/addon.gypi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/bin/node-gyp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/DEPS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/OWNERS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/PRESUBMIT.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/codereview.settings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/data/win/large-pdb-shim.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/gyp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/gyp.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/gyp_main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/MSVSNew.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/MSVSProject.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/MSVSSettings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/MSVSSettings_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/MSVSToolFile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/MSVSUserFile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/MSVSUtil.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/MSVSVersion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/common.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/common_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/easy_xml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/easy_xml_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/flock_tool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/generator/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/generator/analyzer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/generator/android.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/generator/cmake.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/generator/dump_dependency_json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/generator/eclipse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/generator/gypd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/generator/gypsh.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/generator/make.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/generator/msvs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/generator/msvs_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/generator/ninja.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/generator/ninja_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/generator/xcode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/generator/xcode_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/input.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/input_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/mac_tool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/msvs_emulation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/ninja_syntax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/ordered_dict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/simple_copy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/win_tool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/xcode_emulation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/xcode_ninja.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/xcodeproj_file.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/pylib/gyp/xml_fix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/samples/samples" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/samples/samples.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/tools/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/tools/Xcode/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/tools/Xcode/Specifications/gyp.pbfilespec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/tools/Xcode/Specifications/gyp.xclangspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/tools/emacs/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/tools/emacs/gyp-tests.el" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/tools/emacs/gyp.el" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/tools/emacs/run-unit-tests.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/tools/emacs/testdata/media.gyp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/tools/emacs/testdata/media.gyp.fontified" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/tools/graphviz.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/tools/pretty_gyp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/tools/pretty_sln.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/gyp/tools/pretty_vcproj.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/lib/Find-VS2017.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/lib/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/lib/clean.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/lib/configure.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/lib/find-node-directory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/lib/find-vs2017.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/lib/install.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/lib/list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/lib/node-gyp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/lib/process-release.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/lib/rebuild.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/lib/remove.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/src/win_delay_load_hook.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/test/docker.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/test/fixtures/ca-bundle.crt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/test/fixtures/ca.crt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/test/fixtures/server.crt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/test/fixtures/server.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/test/fixtures/test-charmap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/test/process-exec-sync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/test/simple-proxy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/test/test-addon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/test/test-configure-python.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/test/test-download.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/test/test-find-accessible-sync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/test/test-find-node-directory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/test/test-find-python.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/test/test-install.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/test/test-options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/test/test-process-release.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/node-gyp-c2d4815a/tools/gyp/pylib/gyp/generator/compile_commands_json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/npmlog-f5fd2806/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/npmlog-f5fd2806/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/npmlog-f5fd2806/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/npmlog-f5fd2806/log.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/npmlog-f5fd2806/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/once-136553e5/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/once-136553e5/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/once-136553e5/once.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/once-136553e5/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/process-nextick-args-2abb7055/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/process-nextick-args-2abb7055/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/process-nextick-args-2abb7055/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/process-nextick-args-2abb7055/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/pump-25a8c1c9/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/pump-25a8c1c9/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/pump-25a8c1c9/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/pump-25a8c1c9/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/pump-25a8c1c9/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/pump-25a8c1c9/test-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/pump-25a8c1c9/test-node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/pumpify-36db64ba/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/pumpify-36db64ba/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/pumpify-36db64ba/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/pumpify-36db64ba/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/pumpify-36db64ba/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/pumpify-36db64ba/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/read-pkg-29d70c09/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/read-pkg-29d70c09/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/read-pkg-29d70c09/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/read-pkg-29d70c09/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/read-pkg-up-f504f128/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/read-pkg-up-f504f128/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/read-pkg-up-f504f128/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/read-pkg-up-f504f128/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/request-6e65a889/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/request-6e65a889/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/request-6e65a889/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/request-6e65a889/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/request-6e65a889/lib/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/request-6e65a889/lib/cookies.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/request-6e65a889/lib/getProxyFromURI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/request-6e65a889/lib/har.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/request-6e65a889/lib/hawk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/request-6e65a889/lib/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/request-6e65a889/lib/multipart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/request-6e65a889/lib/oauth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/request-6e65a889/lib/querystring.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/request-6e65a889/lib/redirect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/request-6e65a889/lib/tunnel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/request-6e65a889/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/request-6e65a889/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/resolve-dir-17404de4/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/resolve-dir-17404de4/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/resolve-dir-17404de4/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/resolve-dir-17404de4/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/rimraf-9a83b667/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/rimraf-9a83b667/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/rimraf-9a83b667/bin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/rimraf-9a83b667/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/rimraf-9a83b667/rimraf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/examples/extracter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/examples/packer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/examples/reader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/lib/buffer-entry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/lib/entry-writer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/lib/entry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/lib/extended-header-writer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/lib/extended-header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/lib/extract.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/lib/global-header-writer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/lib/header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/lib/pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/lib/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/tar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/test/00-setup-fixtures.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/test/cb-never-called-1.0.1.tgz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/test/dir-normalization.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/test/dir-normalization.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/test/error-on-broken.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/test/extract-move.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/test/extract.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/test/fixtures.tgz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/test/header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/test/pack-no-proprietary.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/test/pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/test/parse-discard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/test/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/tar-e874dd05/test/zz-cleanup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/through2-59802f0c/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/through2-59802f0c/LICENSE.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/through2-59802f0c/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/through2-59802f0c/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/through2-59802f0c/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/through2-59802f0c/through2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/uuid-eb8cb6fa/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/uuid-eb8cb6fa/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/uuid-eb8cb6fa/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/uuid-eb8cb6fa/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/uuid-eb8cb6fa/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/uuid-eb8cb6fa/README_js.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/uuid-eb8cb6fa/bin/uuid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/uuid-eb8cb6fa/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/uuid-eb8cb6fa/lib/bytesToUuid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/uuid-eb8cb6fa/lib/md5-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/uuid-eb8cb6fa/lib/md5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/uuid-eb8cb6fa/lib/rng-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/uuid-eb8cb6fa/lib/rng.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/uuid-eb8cb6fa/lib/sha1-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/uuid-eb8cb6fa/lib/sha1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/uuid-eb8cb6fa/lib/v35.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/uuid-eb8cb6fa/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/uuid-eb8cb6fa/v1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/uuid-eb8cb6fa/v3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/uuid-eb8cb6fa/v4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/uuid-eb8cb6fa/v5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/validate-npm-package-license-046366fe/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/validate-npm-package-license-046366fe/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/validate-npm-package-license-046366fe/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/validate-npm-package-license-046366fe/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/verror-234a2a64/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/verror-234a2a64/CHANGES.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/verror-234a2a64/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/verror-234a2a64/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/verror-234a2a64/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/verror-234a2a64/lib/verror.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/verror-234a2a64/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/which-238097c0/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/which-238097c0/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/which-238097c0/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/which-238097c0/bin/which" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/which-238097c0/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/which-238097c0/which.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/which-module-671f60a0/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/which-module-671f60a0/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/which-module-671f60a0/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/which-module-671f60a0/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/which-module-671f60a0/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/wide-align-2d1a40bb/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/wide-align-2d1a40bb/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/wide-align-2d1a40bb/align.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/wide-align-2d1a40bb/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/wrap-ansi-ba695c5f/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/wrap-ansi-ba695c5f/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/wrap-ansi-ba695c5f/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/wrap-ansi-ba695c5f/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/wrappy-0e991c09/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/wrappy-0e991c09/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/wrappy-0e991c09/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/wrappy-0e991c09/wrappy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/xtend-dd8becf5/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/xtend-dd8becf5/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/xtend-dd8becf5/LICENCE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/xtend-dd8becf5/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/xtend-dd8becf5/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/xtend-dd8becf5/immutable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/xtend-dd8becf5/mutable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/xtend-dd8becf5/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/xtend-dd8becf5/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/y18n-09e298e8/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/y18n-09e298e8/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/y18n-09e298e8/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/y18n-09e298e8/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/yallist-f08e0d8f/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/yallist-f08e0d8f/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/yallist-f08e0d8f/iterator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/yallist-f08e0d8f/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.staging/yallist-f08e0d8f/yallist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/scripts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1035">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-56">
+              <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>RYAN FITZGERALD</find>
+      <find>build</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="site-portfolio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Documents/site/site-portfolio" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="site-portfolio" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Documents/site/site-portfolio" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="scss" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd9b3953-a524-47b9-81d8-e2e45d5b1ab1" name="Default Changelist" comment="" />
+      <created>1560100145809</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560100145809</updated>
+      <workItem from="1560100146845" duration="967000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="967000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/font-awesome/fonts/fontawesome-webfont.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5896">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/project.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/lead-bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1035">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-56">
+          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
